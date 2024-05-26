@@ -5,4 +5,4 @@ author:
 remote_theme: jekyll/minima
 plugins:
 - jekyll-remote-theme
-exclude: [example_folder,example_file.md]
+exclude: [_config.yml,example_folder,example_file.md]
