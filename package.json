@@ -1,6 +1,6 @@
 {
   "name": "noimap",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A NodeJS package that fully take care of handling aws ses emails such as storing, parsing, serving in a easy way.",
   "repository": {
     "type": "git",
