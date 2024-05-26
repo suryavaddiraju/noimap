@@ -1,0 +1,74 @@
+{
+  "name": "noimap",
+  "version": "1.0.0",
+  "description": "A NodeJS package that fully take care of handling aws ses emails such as storing, parsing, serving in a easy way.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/suryavaddiraju/noimap.git"
+  },
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "Apache-2.0",
+  "keywords": [
+    "aws",
+    "ses",
+    "email",
+    "parser",
+    "sesparser",
+    "aws-ses",
+    "aws-ses-parser",
+    "aws-ses-email-parser",
+    "aws-ses-email",
+    "serve",
+    "parse",
+    "store",
+    "email-handler"
+  ],
+  "author": {
+    "name": "Vaddiraju Surya Teja",
+    "email": "suryavaddiraju@proton.me",
+    "url": "http://github.com/suryavaddiraju"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/suryavaddiraju"
+  },
+  "bugs": {
+    "url": "https://github.com/suryavaddiraju/noimap/issues"
+  },
+  "homepage": "https://dev.vaddiraju.in/noimap",
+  "files": [
+    "dist",
+    "lib",
+    "LICENSE",
+    "README.md",
+    "package.json",
+    ".npmignore"
+  ],
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.584.0",
+    "@aws-sdk/client-s3": "^3.583.0",
+    "@aws-sdk/client-sesv2": "^3.583.0",
+    "@aws-sdk/client-sts": "^3.583.0",
+    "@aws-sdk/util-dynamodb": "^3.584.0",
+    "mailparser": "^3.7.1",
+    "uuid": "^9.0.1"
+  },
+  "engines": {
+    "node": ">20.0.0",
+    "npm": ">10.0.0"
+  },
+  "main": "./lib/index.mjs",
+  "exports": "./lib/index.mjs",
+  "type": "module",
+  "devDependencies": {
+    "path-browserify": "^1.0.1",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "sideEffects": false,
+  "jsdelivr": "dist/esm/noimap.mjs",
+  "unpkg": "dist/esm/noimap.mjs"
+}

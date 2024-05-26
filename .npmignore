@@ -1,0 +1,11 @@
+.github/
+docs/
+examples/
+test/
+_config.yml
+.gitattributes
+.gitignore
+webpack.config.mjs
+.log
+logs
+
