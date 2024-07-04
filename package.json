@@ -1,6 +1,6 @@
 {
   "name": "noimap",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A NodeJS package that fully take care of handling aws ses emails such as storing, parsing, serving in a easy way.",
   "repository": {
     "type": "git",
@@ -48,13 +48,13 @@
     ".npmignore"
   ],
   "dependencies": {
-    "@aws-sdk/client-dynamodb": "^3.584.0",
-    "@aws-sdk/client-s3": "^3.583.0",
-    "@aws-sdk/client-sesv2": "^3.583.0",
-    "@aws-sdk/client-sts": "^3.583.0",
-    "@aws-sdk/util-dynamodb": "^3.584.0",
+    "@aws-sdk/client-dynamodb": "^3.609.0",
+    "@aws-sdk/client-s3": "^3.609.0",
+    "@aws-sdk/client-sesv2": "^3.609.0",
+    "@aws-sdk/client-sts": "3.609.0",
+    "@aws-sdk/util-dynamodb": "^3.609.0",
     "mailparser": "^3.7.1",
-    "uuid": "^9.0.1"
+    "uuid": "^10.0.0"
   },
   "engines": {
     "node": ">20.0.0",
@@ -65,10 +65,10 @@
   "type": "module",
   "devDependencies": {
     "path-browserify": "^1.0.1",
-    "webpack": "^5.91.0",
+    "webpack": "^5.92.1",
     "webpack-cli": "^5.1.4"
   },
   "sideEffects": false,
-  "jsdelivr": "dist/esm/noimap.mjs",
-  "unpkg": "dist/esm/noimap.mjs"
+  "jsdelivr": "",
+  "unpkg": ""
 }
