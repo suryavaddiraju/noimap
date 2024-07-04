@@ -7,7 +7,7 @@
     "url": "https://github.com/suryavaddiraju/noimap.git"
   },
   "scripts": {
-    "build": "webpack",
+    "build": "webpack --version",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "license": "Apache-2.0",
